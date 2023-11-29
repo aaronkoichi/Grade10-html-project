@@ -1,0 +1,243 @@
+
+/*CSS configuration for the body of the page. */
+body { 
+    margin-left: auto;      /* Using margin-left and margin-right set to auto centers the entire website.*/
+    margin-right: auto;
+    background-color: #000;          /*Background color set to black. */
+}
+
+
+
+.TopHeader {
+    background-color: #000 ;  /* Giving a header a black background color, as they are grouped in a div.*/
+    size: 100%; /* Sets to retain its full size. */
+    margin-left: auto;
+    margin-right:auto;    /* Using margin-left and margin-right set to auto centers the entire website. */
+    position: sticky;  /* Sets the position to sticky so that the navigation bar stays at the top when we scroll down. */
+    top: 0;
+    
+    
+    
+
+}
+.logoImg {
+    float:left;  /* Lets the logo pan to the left. */
+}
+
+.title img {
+  padding-left: 1%; /* Gives a 1 percent padding ro the logo. */
+
+}
+
+.rightImg {
+    float: right;  /*Another float for the holidays decoration to the right */
+    padding-right: 2%; /* Sets the right padding to 2 percent. */
+}
+/*CSS for first navigation bar */
+/* Clears all float configuration so that it won't apply to the code below, clears margin below,
+ while having the background color set, with a 40px height. */
+.firstTableOfContent { 
+    clear: both;  
+    margin-bottom: 0px;
+    size: 100%;
+    background-color: #19647E;
+    height: 40px;
+    
+}
+
+
+/*CSS for the links in the navigation bar. */
+/*Creates a padding to the left, while giving top and bottom some padding, as well as setting the 
+font size to 18px. Lets the hyperlinks to float to the left so they align horizontally together, 
+setting the text color to white, with a Google Font, while removing any default text decorations.  */
+.firstTableOfContent a {
+    padding-left: 3%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size:18px;
+    float: left; 
+    text-align: center;
+    color: #FCF7F8;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none; 
+} 
+
+/* The links turned yellow when hovered onto it. Obtained from the navbar video tutorial.*/
+.firstTableOfContent a:hover {
+    color: #F4D35E;
+    
+}
+
+/* CSS for the second navbar. Learnt from the navbar tutorial video.*/
+/* Sets a different background color as the other navbar, while letting all of the contents to float in left.
+Retaining its original size while clearing all margins. */
+nav {
+    background-color:#28AFB0;
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+/*Disables list styles for the links in the 2nd navbar, while also removing 
+all margins and padding. */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+/* Sets a padding to the left, as well as top and bottom so that the links does not looked squished together. */
+nav li {
+    display: inline-block;
+    padding-left: 3%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+}
+/* Setting a font size, font family, and the color for the second navigation bar.*/
+nav a{
+    color: #FCF7F8;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif; 
+    text-decoration: none;
+}
+/*Creates a hover effect when hovered: Changing into another color. */
+nav a:hover {
+    color: #F4D35E;
+}
+
+/* Sets the width, paddings, margin, font family and size, text color, and the alignment of
+the main title of the page, while clearing any existing configuation above.  */
+.pageTitle {
+    width: 60%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    font-family: 'Poppins', sans-serif;
+    color: #EE964B;
+    font-size: 20px;
+    text-align: center;
+
+}
+/* Consist the same settings as the .pageTitle, but lowers the padding above for sub titles of the website. */
+.subTitle {
+    width: 60%;
+    padding-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    font-family: 'Poppins', sans-serif;
+    color: #EE964B;
+    font-size: 20px;
+    text-align: center;
+
+}
+/* Setting the color, font family and size for the small wordings on the article's title.  */
+.pageTitle p {
+    color: #F4D35E;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* While clearing all configurations, sets the width size, display type, and margins for the images in the website. */
+.imageees img {
+    clear: both;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Centers the Python program, and sets the display type. */
+.imageees iframe {
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+/* Sets the width and the display type for the sub images at the index page.*/
+.imageContent {
+    width: 45%;
+    display: block;
+    
+}
+
+
+
+/* Sets the width size, font family and size, margins, color, and paddings for the descriptions and the article. */
+.wordings {
+    width: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F4D35E;
+    font-size: 14px;
+    padding-bottom:100px;
+
+
+}
+/* Giving additional settings such as float, px width size, and the padding for the sub images at the index page. */    
+.leftImg  {
+    float: left;
+    width: 200px;
+    padding-left: 25%;
+}
+/* Sets the float, width, font family, and paddings for the sub text at the index page. */
+.rightWordings  {
+    
+    float:right;
+    width: 40%;
+    font-family: 'Ubuntu', sans-serif;
+    padding-right:0px;
+    padding-top:5%;  
+}
+/* Sets additional settings such as the color and the font size for the sub text at the index page. */
+.rightWordings p {
+    color: #F4D35E; 
+    font-size: 14px;
+}
+/*Removes text decoration, sets color and the font size for hte hyperlink of the sub text at the index page. */
+.rightWordings a {
+    text-decoration: none;
+    color:#28AFB0;
+    font-size: 14px;
+    
+    
+}
+/* Sets a color for a hover effect for the hyperlinks of the sub text at the index page. */
+.rightWordings a:hover {
+    color: #FCF7F8;
+}
+/*Giving the default settings, such as width and margin for the image followed by text section at the index page. */
+.imgSection {
+    clear: both;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Sets the padding, font family and size, and alignment for the footer in every page.  */
+footer {
+    clear:both;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    
+}
+/* Sets the color for each strong text, as a highlight. */
+strong {
+    color:#28AFB0;
+}
+/*Sets a color for each underlined text, such as the order link at the very end of the article page. */
+
+.subTitle u {
+    color:#fff;
+}
